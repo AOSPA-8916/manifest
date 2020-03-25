@@ -29,6 +29,7 @@
   <!-- System -->
   <remove-project name="AOSPA/android_system_sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="aospa-8916" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-17.1" />
 
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_pa" />
