@@ -18,6 +18,8 @@
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospa-8916" />
+  <remove-project name="AOSPA/android_frameworks_av" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="aospa-8916" />
 
   <!-- External -->
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-17.1" />
