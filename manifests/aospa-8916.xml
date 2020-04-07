@@ -4,6 +4,7 @@
   <remote  name="aospa-8916" 
            fetch="https://github.com/AOSPA-8916"
            revision="quartz" />
+ 	<remote fetch="https://gitlab.com/chil360" name="chil360-gitlab"/>
 
   <!-- Manifest -->
   <remove-project name="AOSPA/manifest" />
@@ -36,5 +37,7 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="aospa-8916" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  <remove-project name="AOSPA/vendor_gapps" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="chil360-gitlab" revision="quartz" clone-depth="1" />
 
 </manifest>
